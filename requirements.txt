@@ -1,0 +1,16 @@
+# Authors' pinned requirements (from github.com/mala-lab/LogADReft/requirements.txt)
+transformers==4.45.1
+sentence-transformers==3.1.1
+evaluate==0.4.3
+pyreft==0.0.8
+pyvene==0.1.6   # pyreft 0.0.8 only requires >=0.1.4; pyvene>=0.1.7 changes its internal format and breaks the authors' main.py (TypeError: 'LoreftIntervention' object is not subscriptable)
+peft==0.12.0
+nltk==3.9.1
+# Imported by the authors' code but missing from their requirements file
+wandb
+scikit-learn
+pandas
+# Used by our notebook
+matplotlib
+requests
+# torch is provided by the Colab/Kaggle image (use a CUDA build of PyTorch on a local machine)
