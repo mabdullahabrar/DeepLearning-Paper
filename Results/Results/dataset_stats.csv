@@ -1,5 +1,0 @@
-dataset,split,sequences,anomalous,anomaly_pct,mean_events_per_seq,median_tokens_sample,pct_over_510_tokens_sample
-HDFS,train,460048,13505,2.94,19.4,337,1.6
-HDFS,test,115013,3333,2.9,19.4,337,1.8
-BGL,train,75416,7421,9.84,50.0,252,21.0
-BGL,test,18854,1389,7.37,50.0,802,58.6
