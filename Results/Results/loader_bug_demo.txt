@@ -1,0 +1,2 @@
+is_test_train_ratio=False: UnboundLocalError: cannot access local variable 'n_train_for_n_test' where it is not associated with a value
+is_test_train_ratio=True: OK
